@@ -10,3 +10,7 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 02.01.2023 - 23:08
 1. Arquivo javascript com o script para mudar o icone ao passar o mouse no menu
+
+### 03.01.2023 - 00:05
+* MENU NÃO ACOMPANHA O REDIMENSIONAMENTO DA JANELA
+* Organização do menu e do rodapé em todas as páginas
