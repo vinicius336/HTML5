@@ -17,3 +17,7 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 03.01.2023 - 18:15
 1. Organização do texto e estilo (interno) da página Especificações
+
+### 03.01.2023 - 19:30
+1. Organização do iframe na página Especificações
+* O display: none; não funcionou para retirar o scroolbar do iframe

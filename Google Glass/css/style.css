@@ -131,6 +131,8 @@ nav#menu a:hover{
     text-decoration: underline;
 }
 
+/* Formatação do Corpo */
+
 section#corpo{
     display: block;
     width: 500px;
