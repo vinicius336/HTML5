@@ -24,3 +24,6 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 03.01.2023 - 22:30
 1. Feito a página fotos
+
+### 03.01.2023 - 22:45
+1. Inserido um áudio e um vídeo na página multimidia.html
