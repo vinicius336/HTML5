@@ -51,3 +51,6 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 ### 04.01.2023 - 15:10
 * Alteração do Readme.md para lista não ordenada
 * Inserção de Estados por Região e Capitais no Formulário com option e optgroup
+
+### 04.01.2023 - 15:25
+* Organização do campor Mensagem do Usuário no formulário

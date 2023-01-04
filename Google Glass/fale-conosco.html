@@ -7,7 +7,6 @@
         <title>Fale Conosco</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/contato.css">
-        <meta http-equiv="refresh" content="2">
         <script src="_javascript/funcoes.js"></script>
     </head>
     <body>
@@ -159,11 +158,11 @@
                         <legend>Mensagem do Usuário</legend>
                         <p>
                             <label for="cUrg">Grau de Urgência:</label>
-                            <input type="text" name="tUrg" id="cUrg" placeholder="Urgência">
+                            Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2" placeholder="Urgência">Máx
                         </p>
                         <p>
-                            <label for="cMsg">Mensagem:</label>
-                            <input type="text" name="tMsg" id="cMsg" placeholder="Mensagem">
+                            <label for="cMsg" style="vertical-align: top;">Mensagem:</label>
+                            <textarea name="tMsg" id="cMsg" cols="45" rows=5 placeholder="Deixe Aqui Sua Mensagem"></textarea>
                         </p>
                     </fieldset>
                     <fieldset id="pedido">
