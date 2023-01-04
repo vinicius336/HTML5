@@ -40,7 +40,7 @@
                         </hgroup>
                     </header>
                 </article>
-                <form action="">
+                <form method="post" id="fContato" action="mailto:vinicius336@msn.com">
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p>
@@ -77,15 +77,82 @@
                         </p>
                         <p>
                             <label for="cNum">Número:</label>
-                            <input type="number" name="tNum" id="cNum" min="0" max="9999" placeholder="">
+                            <input type="number" name="tNum" id="cNum" min="0" max="9999">
                         </p>
                         <p>
-                            <label for="cUf">Estado:</label>
-                            <input type="text" name="tUf" id="cUf"  placeholder="Estado">
+                            <label for="cEst">Estado:</label>
+                            <select name="tEst" id="cEst">
+                                <optgroup label="Região Norte">
+                                    <option value="AC">Acre</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazônas</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="RO">Rondonia</option>
+                                    <option value="TO">Tocantins</option>
+                                </optgroup>
+                                <optgroup label="Região Nordeste">
+                                    <option value="AL">Alagoas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="SE">Sergipe</option>
+                                </optgroup>
+                                <optgroup label="Região Centro-Oeste">
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                </optgroup>
+                                <optgroup label="Região Sudeste">
+                                    <option value="ES">Espirito Santo</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="SP">São Paulo</option>
+                                </optgroup>
+                                <optgroup label="Região Sul">
+                                    <option value="PR">Paraná</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="SC">Santa Catarina</option>
+                                </optgroup>
+                            </select>
                         </p>
                         <p>
-                            <label for="cCdd">Cidade:</label>
-                            <input type="text" name="tCdd" id="cCdd" placeholder="Cidade">
+                            <label for="cCid">Cidade:</label>
+                            <input type="text" name="tCid" id="cCid" maxlength="40" placeholder="Cidade" list="cidades">
+                            <datalist id="cidades">
+                                <option value="Manaus"></option>
+                                <option value="Rio Branco"></option>
+                                <option value="Porto Velho"></option>
+                                <option value="Boa Vista"></option>
+                                <option value="Macapá"></option>
+                                <option value="Belém"></option>
+                                <option value="Palmas"></option>
+                                <option value="São Luís"></option>
+                                <option value="Teresina"></option>
+                                <option value="Natal"></option>
+                                <option value="Fortaleza"></option>
+                                <option value="João Pessoa"></option>
+                                <option value="Salvador"></option>
+                                <option value="Recife"></option>
+                                <option value="Maceió"></option>
+                                <option value="Aracaju"></option>
+                                <option value="Goiânia"></option>
+                                <option value="Cuiabá"></option>
+                                <option value="Campo Grande"></option>
+                                <option value="Brasília"></option>
+                                <option value="Belo Horizonte"></option>
+                                <option value="Vitória"></option>
+                                <option value="Rio de Janeiro"></option>
+                                <option value="São Paulo"></option>
+                                <option value="Florianópolis"></option>
+                                <option value="Curitiba"></option>
+                                <option value="Porto Alegre"></option>
+                            </datalist>
                         </p>
                     </fieldset>
                     <fieldset id="mensagem">
@@ -95,8 +162,8 @@
                             <input type="text" name="tUrg" id="cUrg" placeholder="Urgência">
                         </p>
                         <p>
-                            <label for="cMens">Mensagem:</label>
-                            <input type="text" name="tMens" id="cMens" placeholder="Mensagem">
+                            <label for="cMsg">Mensagem:</label>
+                            <input type="text" name="tMsg" id="cMsg" placeholder="Mensagem">
                         </p>
                     </fieldset>
                     <fieldset id="pedido">
