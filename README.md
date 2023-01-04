@@ -42,5 +42,7 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 4. Criação do contato.css
 
 ### 04.01.2023 - 01:20
-* Organização do código (identação e visualização
-)
+* Organização do código (identação e visualização)
+
+### 04.01.2023 - 14:25
+* Repositório renomeado
