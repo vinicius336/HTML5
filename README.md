@@ -54,3 +54,6 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 04.01.2023 - 15:25
 * Organização do campor Mensagem do Usuário no formulário
+
+### 04.01.2023 - 17:22
+* Inclusão do código JavaScript para calcular o preço total

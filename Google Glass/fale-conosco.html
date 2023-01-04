@@ -8,6 +8,13 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/contato.css">
         <script src="_javascript/funcoes.js"></script>
+        <script>
+            function calc_total(){
+                var qtd = parseInt(document.getElementById('cQtd').value);
+                tot = qtd * 1500;
+                document.getElementById('cTot').value = tot;
+            }
+        </script>
     </head>
     <body>
         <div id="interface">
@@ -39,7 +46,7 @@
                         </hgroup>
                     </header>
                 </article>
-                <form method="post" id="fContato" action="mailto:vinicius336@msn.com">
+                <form method="post" id="fContato" action="mailto:vinicius336@msn.com" oninput="calc_total();">
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p>
@@ -54,20 +61,21 @@
                             <label for="cEmail">E-mail:</label>
                             <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="E-mail">
                         </p>
-                    <fieldset>
-                        <legend>Sexo</legend>
-                        <input type="radio" name="tSexo" id="cMasc" checked>
-                            <label for="cMasc">Masculino</label>
-                        </input>
-                        <input type="radio" name="tSexo" id="cFem">
-                            <label for="cFem">Feminino</label>
-                        </input>
-                    </fieldset>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <input type="radio" name="tSexo" id="cMasc" checked>
+                                <label for="cMasc">Masculino</label>
+                            </input>
+                            <input type="radio" name="tSexo" id="cFem">
+                                <label for="cFem">Feminino</label>
+                            </input>
+                        </fieldset>
                         <p>
                             <label for="cNasc">Data de Nascimento:</label>
                             <input type="date" name="tNasc" id="cNasc">
                         </p>
                     </fieldset>
+
                     <fieldset id="endereco">
                         <legend>Endereço do Usuário</legend>
                         <p>
@@ -154,6 +162,7 @@
                             </datalist>
                         </p>
                     </fieldset>
+
                     <fieldset id="mensagem">
                         <legend>Mensagem do Usuário</legend>
                         <p>
@@ -165,23 +174,28 @@
                             <textarea name="tMsg" id="cMsg" cols="45" rows=5 placeholder="Deixe Aqui Sua Mensagem"></textarea>
                         </p>
                     </fieldset>
+
                     <fieldset id="pedido">
                         <legend>Quero um Google Glass</legend>
-                        <p>Gostaria de adquirir um Google Glass quando disponível</p>
                         <p>
-                            <label for="c">Cor:</label>
-                            <input type="text" placeholder="">
+                            <input type="checkbox" name="tPed" id="cPed" checked>
+                            <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label>
                         </p>
                         <p>
-                            <label for="c">Quantidade:</label>
-                            <input type="number" placeholder="">
+                            <label for="cCor">Cor:</label>
+                            <input type="color" name="tCor" id="cCor" value="#0000FF">
                         </p>
                         <p>
-                            <label for="c">Preço Total:</label>
-                            R$ <input type="" placeholder="">
+                            <label for="cQtd">Quantidade:</label>
+                            <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0" placeholder="">
+                        </p>
+                        <p>
+                            <label for="cTot">Preço Total:</label>
+                            R$ <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly>
                         </p>
                     </fieldset>
-                    [BOTÃO ENVIAR]
+                    <!-- <p><input type="submit" value="enviar"></p> BOTÃO PADRÃO -->
+                    <input type="image" name="tEnviar" src="imagens/botao-enviar.png">
                 </form>
             </section>
             <footer id="rodape">
