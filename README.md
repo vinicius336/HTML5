@@ -1,4 +1,4 @@
-# HTML5
+# HTML5 - Curso em vídeo [2013]
 Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabara
 
 ## Commits de cada etapa realizada em aula seguindo o dia e hora com a respectiva descrição.
@@ -46,3 +46,5 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 04.01.2023 - 14:25
 * Repositório renomeado
+* Título do Readme.md
+
