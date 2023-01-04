@@ -34,3 +34,9 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 ### 03.01.2023 - 23:15
 1. Retirado tag de autorefresh
 2. Criado e feito link do contato.css
+
+### 04.01.2023 - 01:07
+1. Organização do fale-conosco.html
+2. Falta organizar o toque/clique nas palavras do fieldset "pedido"
+3. Falta o botão "ENVIAR"
+4. Criação do contato.css
