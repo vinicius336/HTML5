@@ -30,3 +30,7 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 03.01.2023 - 23:10
 1. Finalizada a página multimidia.html
+
+### 03.01.2023 - 23:15
+1. Retirado tag de autorefresh
+2. Criado e feito link do contato.css
