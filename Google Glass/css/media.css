@@ -1,2 +1,35 @@
 @charset "UTF-8";
 
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background-image: url(../imagens/radio-tv.png);
+}
+
+audio#musica{
+    float: right;
+    margin-top: 489px;
+    margin-right: 26px;
+}
+
+video#filme{
+    margin-top: 126px;
+    margin-left: 86px;
+}
+
+/*
+audio#musica{           Este bloco foi feito na aula - O está melhor posicionado
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 500px;
+}
+
+video#filme{            Este bloco foi feito na aula - O está melhor posicionado
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 85px;
+    width: 440px;
+}*/
