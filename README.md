@@ -21,3 +21,6 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 ### 03.01.2023 - 19:30
 1. Organização do iframe na página Especificações
 * O display: none; não funcionou para retirar o scroolbar do iframe
+
+### 03.01.2023 - 22:30
+1. Feito a página fotos
