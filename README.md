@@ -57,3 +57,6 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 
 ### 04.01.2023 - 17:22
 * Inclusão do código JavaScript para calcular o preço total
+
+### 04.01.2023 - 17:35
+* Página de contato finalizada com o css.contato
