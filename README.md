@@ -40,3 +40,7 @@ Elaboração do site no Curso de HTML 5 do Curso em Vídeo, por Gustavo Guanabar
 2. Falta organizar o toque/clique nas palavras do fieldset "pedido"
 3. Falta o botão "ENVIAR"
 4. Criação do contato.css
+
+### 04.01.2023 - 01:20
+* Organização do código (identação e visualização
+)
